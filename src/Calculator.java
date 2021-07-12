@@ -17,8 +17,7 @@ public class Calculator {
         System.out.print("Введите арифметическую операцию в одну строку.\n" +
                 "Так же калькулятор поддерживает римские числа\n" +
                 "(только целые числа от 1 до 10, например 10 * 10 или IX + VIII):\n");
-        String string = in.nextLine();
-        return string;
+        return in.nextLine();
     }
 
     public static int checkNumber(String s) throws Exception {
